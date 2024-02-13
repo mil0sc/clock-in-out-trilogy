@@ -1,0 +1,36 @@
+2024-02-07 21:51:54,069:ERROR:Clock-in error for employee 1: Employee 1 not found or shift not assigned.
+2024-02-07 21:51:59,335:ERROR:Clock-in error for employee 2: Employee 2 not found or shift not assigned.
+2024-02-07 21:52:18,572:INFO:Checked shift (14-22) for hour 21: within shift
+2024-02-07 21:52:40,165:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4351172112'>: outside shift
+2024-02-07 21:52:40,170:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 21:54:20,605:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4833642640'>: outside shift
+2024-02-07 21:54:20,612:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 21:55:15,494:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4417552720'>: outside shift
+2024-02-07 21:55:15,502:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 21:55:21,986:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4418654160'>: outside shift
+2024-02-07 21:55:41,730:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 21:55:58,419:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4652013200'>: outside shift
+2024-02-07 21:55:58,424:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 21:56:06,627:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4378565968'>: outside shift
+2024-02-07 21:56:06,632:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 21:56:10,736:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4353045392'>: outside shift
+2024-02-07 21:56:10,750:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 22:09:12,506:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4443426192'>: outside shift
+2024-02-07 22:09:12,513:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 22:10:23,332:INFO:Checked shift (14-22) for hour 22: outside shift
+2024-02-07 22:10:23,333:ERROR:Clock-in error for employee Adam Łoniewski: Employee Adam Łoniewski cannot clock in during this shift ((14-22)).
+2024-02-07 22:11:07,878:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4958603280'>: outside shift
+2024-02-07 22:11:07,885:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 22:16:24,574:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4694946896'>: outside shift
+2024-02-07 22:16:24,580:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 22:16:56,893:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4804220816'>: outside shift
+2024-02-07 22:16:56,898:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 22:17:03,126:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4694379216'>: outside shift
+2024-02-07 22:17:03,139:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 22:17:10,003:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4553043792'>: outside shift
+2024-02-07 22:17:10,008:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 22:17:43,660:ERROR:IOError while saving time entry: File not accessible
+2024-02-07 22:18:02,175:INFO:Checked shift (14-22) for hour <MagicMock name='datetime().hour' id='4641615568'>: outside shift
+2024-02-07 22:44:19,022:ERROR:Clock-in error for employee Mateusz: Employee Mateusz not found or shift not assigned.
+2024-02-07 22:47:54,626:INFO:Checked shift (22-6) for hour 22: within shift
+2024-02-07 22:48:00,779:INFO:Checked shift (22-6) for hour 22: within shift
