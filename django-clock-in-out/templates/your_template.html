@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>Timesheet</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <label for="employee_id">Employee ID:</label>
+        <input type="text" id="employee_id" name="employee_id">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timesheet Report</title>
+</head>
+<body>
+    <h1>Timesheet Report</h1>
+    {% if report_data %}
+        <table>
+            <tr>
+                <th>Employee Name</th>
+                <th>Timestamp</th>
+                <th>Action</th>
+            </tr>
+            {% for entry in report_data %}
+                <tr>
+                    <td>{{ entry.employee_name }}</td>
+                    <td>{{ entry.timestamp }}</td>
+                    <td>{{ entry.action }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No entries to report.</p>
+    {% endif %}
+    <a href="{% url 'generate_report' %}">Back to generate report</a>
+</body>
+</html>

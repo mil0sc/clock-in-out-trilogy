@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae4ad80e-779f-4c92-8313-6906e28e6cf5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/clockInOutDjango.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aggregated_predictions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculated_hours.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/aggregate_and_compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/aggregate_hours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/calculate_and_predict_hours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/company_performance_projection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/delete_all_entries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/generate_random_employees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/import_target_hours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/migrate_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/predict_and_compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/prepare_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/management/commands/sum_and_sort_employee_hours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/migrations/0002_timeentry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/migrations/0003_timeentry_work_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/migrations/0004_alter_employee_shift_hours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/migrations/0005_employee_job_role_alter_timeentry_employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/migrations/0006_companytarget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/migrations/0007_alter_companytarget_job_role.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/test_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOut/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOutDjango/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOutDjango/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOutDjango/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOutDjango/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clockInOutDjango/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predictions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorted_employee_hours_with_roles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target_hours.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clock_in_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clock_in_out_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clock_in_out_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clock_in_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/employee_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/employees.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main_dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/report_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/report_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/some_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/time_entries_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/work_hours_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/work_hours_report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/your_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_entries_data.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2aB0CkITaRyf858gULUDRLUn89G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.clockInOutDjango.executor": "Run",
+    "Django tests.Test: clockInOut.test_views.executor": "Run",
+    "Django tests.Test: clockInOut.tests.ClockInOutViewTests.test_clock_in_out_view_get.executor": "Run",
+    "Django tests.Test: clockInOut.tests.ClockInOutViewTests.test_work_hours_view_get.executor": "Run",
+    "Django tests.Test: clockInOut.tests.ViewTestCase.executor": "Run",
+    "Django tests.Test: clockInOut.tests.YourViewTests.executor": "Run",
+    "Django tests.Test: clockInOut.tests.executor": "Run",
+    "Django tests.Test: clockInOutDjango.tests.executor": "Run",
+    "Python.changenameltr.executor": "Run",
+    "Python.prepare_data.executor": "Run",
+    "Python.testerrr.executor": "Run",
+    "Python.utils.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/milosz/python/pyCharm/clockInOut/clockInOutDjango/clockInOutDjango",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/clockInOutDjango" />
+      <recent name="$PROJECT_DIR$/clockInOut/management/commands" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django tests.Test: clockInOut.tests.ViewTestCase">
+    <configuration name="Test: clockInOut.tests.ClockInOutViewTests.test_clock_in_out_view_get" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="clockInOutDjango" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="clockInOut.tests.ClockInOutViewTests.test_clock_in_out_view_get" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: clockInOut.tests.ClockInOutViewTests.test_work_hours_view_get" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="clockInOutDjango" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="clockInOut.tests.ClockInOutViewTests.test_work_hours_view_get" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: clockInOut.tests.ViewTestCase" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="clockInOutDjango" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="clockInOut.tests.ViewTestCase" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: clockInOut.tests.YourViewTests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="clockInOutDjango" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="clockInOut.tests.YourViewTests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="clockInOutDjango" type="Python.DjangoServer" factoryName="Django server">
+      <module name="clockInOutDjango" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="clockInOutDjango.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: clockInOut.tests.ViewTestCase" />
+        <item itemvalue="Django tests.Test: clockInOut.tests.ClockInOutViewTests.test_clock_in_out_view_get" />
+        <item itemvalue="Django tests.Test: clockInOut.tests.ClockInOutViewTests.test_work_hours_view_get" />
+        <item itemvalue="Django tests.Test: clockInOut.tests.YourViewTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae4ad80e-779f-4c92-8313-6906e28e6cf5" name="Changes" comment="" />
+      <created>1703776539368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703776539368</updated>
+      <workItem from="1703776543648" duration="2790000" />
+      <workItem from="1703779706658" duration="20780000" />
+      <workItem from="1704302736837" duration="630000" />
+      <workItem from="1704369232260" duration="15459000" />
+      <workItem from="1704802229180" duration="15191000" />
+      <workItem from="1704896615038" duration="25363000" />
+      <workItem from="1705319420988" duration="20050000" />
+      <workItem from="1705488596584" duration="39041000" />
+      <workItem from="1707174886972" duration="52495000" />
+      <workItem from="1707337500100" duration="5248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/clockInOut/management/commands/calculate_and_predict_hours.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/clockInOutDjango$Test__clockInOutDjango_tests.coverage" NAME="Test: clockInOutDjango.tests Coverage Results" MODIFIED="1707291701771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/clockInOutDjango$prepare_data.coverage" NAME="prepare_data Coverage Results" MODIFIED="1707305558178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clockInOut/management/commands" />
+    <SUITE FILE_PATH="coverage/clockInOutDjango$utils.coverage" NAME="utils Coverage Results" MODIFIED="1707298497731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clockInOut" />
+    <SUITE FILE_PATH="coverage/clockInOutDjango$changenameltr.coverage" NAME="changenameltr Coverage Results" MODIFIED="1707238935828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clockInOut/management/commands" />
+    <SUITE FILE_PATH="coverage/clockInOutDjango$Test__clockInOut_tests_ClockInOutViewTests_test_work_hours_view_get.coverage" NAME="Test: clockInOut.tests.ClockInOutViewTests.test_work_hours_view_get Coverage Results" MODIFIED="1707291731546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/clockInOutDjango$Test__clockInOut_test_views.coverage" NAME="Test: clockInOut.test_views Coverage Results" MODIFIED="1707297804400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/clockInOutDjango$Test__clockInOut_tests.coverage" NAME="Test: clockInOut.tests Coverage Results" MODIFIED="1707345658068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/clockInOutDjango$Test__clockInOut_tests_ViewTestCase.coverage" NAME="Test: clockInOut.tests.ViewTestCase Coverage Results" MODIFIED="1707345937228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/clockInOutDjango$testerrr.coverage" NAME="testerrr Coverage Results" MODIFIED="1707305374271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clockInOut/management/commands" />
+    <SUITE FILE_PATH="coverage/clockInOutDjango$Test__clockInOut_tests_YourViewTests.coverage" NAME="Test: clockInOut.tests.YourViewTests Coverage Results" MODIFIED="1707291692102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/clockInOutDjango$Test__clockInOut_tests_ClockInOutViewTests_test_clock_in_out_view_get.coverage" NAME="Test: clockInOut.tests.ClockInOutViewTests.test_clock_in_out_view_get Coverage Results" MODIFIED="1707345701988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

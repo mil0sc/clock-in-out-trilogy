@@ -1,0 +1,17 @@
+<!-- main_dashboard.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Dashboard</title>
+</head>
+<body>
+    <h1>Main Dashboard</h1>
+    <ul>
+        <li><a href="{% url 'clock_in_out' %}">Clock In/Out</a></li>
+        <li><a href="{% url 'calculate_hours' %}">Calculate Work Hours</a></li>
+        <li><a href="{% url 'generate_report' %}">Generate Report</a></li>
+        <li><a href="{% url 'employee-list' %}">Employee List</a></li>
+        <li><a href="{% url 'time-entries-list' %}">Time Entries</a></li>
+    </ul>
+</body>
+</html>

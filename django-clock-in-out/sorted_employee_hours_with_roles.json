@@ -1,0 +1,252 @@
+[
+    {
+        "employee_name": "Employee 8",
+        "job_role": "backend",
+        "work_hours": 562.0
+    },
+    {
+        "employee_name": "Employee 43",
+        "job_role": "devops",
+        "work_hours": 559.0
+    },
+    {
+        "employee_name": "Employee 17",
+        "job_role": "devops",
+        "work_hours": 558.0
+    },
+    {
+        "employee_name": "Employee 11",
+        "job_role": "projmgr",
+        "work_hours": 558.0
+    },
+    {
+        "employee_name": "Employee 36",
+        "job_role": "datasci",
+        "work_hours": 557.0
+    },
+    {
+        "employee_name": "Employee 48",
+        "job_role": "datasci",
+        "work_hours": 553.0
+    },
+    {
+        "employee_name": "Employee 40",
+        "job_role": "projmgr",
+        "work_hours": 552.0
+    },
+    {
+        "employee_name": "Employee 25",
+        "job_role": "devops",
+        "work_hours": 551.0
+    },
+    {
+        "employee_name": "Employee 24",
+        "job_role": "projmgr",
+        "work_hours": 551.0
+    },
+    {
+        "employee_name": "Employee 31",
+        "job_role": "projmgr",
+        "work_hours": 551.0
+    },
+    {
+        "employee_name": "Employee 14",
+        "job_role": "backend",
+        "work_hours": 551.0
+    },
+    {
+        "employee_name": "Employee 2",
+        "job_role": "datasci",
+        "work_hours": 549.0
+    },
+    {
+        "employee_name": "Employee 23",
+        "job_role": "backend",
+        "work_hours": 549.0
+    },
+    {
+        "employee_name": "Employee 21",
+        "job_role": "frontend",
+        "work_hours": 548.0
+    },
+    {
+        "employee_name": "Employee 3",
+        "job_role": "frontend",
+        "work_hours": 547.0
+    },
+    {
+        "employee_name": "Employee 16",
+        "job_role": "datasci",
+        "work_hours": 546.0
+    },
+    {
+        "employee_name": "Employee 7",
+        "job_role": "devops",
+        "work_hours": 545.0
+    },
+    {
+        "employee_name": "Employee 28",
+        "job_role": "devops",
+        "work_hours": 542.0
+    },
+    {
+        "employee_name": "Employee 41",
+        "job_role": "backend",
+        "work_hours": 542.0
+    },
+    {
+        "employee_name": "Employee 38",
+        "job_role": "projmgr",
+        "work_hours": 542.0
+    },
+    {
+        "employee_name": "Employee 49",
+        "job_role": "devops",
+        "work_hours": 542.0
+    },
+    {
+        "employee_name": "Employee 0",
+        "job_role": "projmgr",
+        "work_hours": 542.0
+    },
+    {
+        "employee_name": "Employee 42",
+        "job_role": "projmgr",
+        "work_hours": 540.0
+    },
+    {
+        "employee_name": "Employee 12",
+        "job_role": "frontend",
+        "work_hours": 539.0
+    },
+    {
+        "employee_name": "Employee 1",
+        "job_role": "backend",
+        "work_hours": 539.0
+    },
+    {
+        "employee_name": "Employee 10",
+        "job_role": "devops",
+        "work_hours": 539.0
+    },
+    {
+        "employee_name": "Employee 32",
+        "job_role": "devops",
+        "work_hours": 538.0
+    },
+    {
+        "employee_name": "Employee 22",
+        "job_role": "projmgr",
+        "work_hours": 538.0
+    },
+    {
+        "employee_name": "Employee 5",
+        "job_role": "frontend",
+        "work_hours": 537.0
+    },
+    {
+        "employee_name": "Employee 18",
+        "job_role": "backend",
+        "work_hours": 536.0
+    },
+    {
+        "employee_name": "Employee 34",
+        "job_role": "projmgr",
+        "work_hours": 534.0
+    },
+    {
+        "employee_name": "Employee 35",
+        "job_role": "projmgr",
+        "work_hours": 534.0
+    },
+    {
+        "employee_name": "Employee 19",
+        "job_role": "frontend",
+        "work_hours": 533.0
+    },
+    {
+        "employee_name": "Employee 26",
+        "job_role": "devops",
+        "work_hours": 532.0
+    },
+    {
+        "employee_name": "Employee 45",
+        "job_role": "datasci",
+        "work_hours": 531.0
+    },
+    {
+        "employee_name": "Employee 6",
+        "job_role": "datasci",
+        "work_hours": 531.0
+    },
+    {
+        "employee_name": "Employee 37",
+        "job_role": "frontend",
+        "work_hours": 531.0
+    },
+    {
+        "employee_name": "Employee 4",
+        "job_role": "frontend",
+        "work_hours": 530.0
+    },
+    {
+        "employee_name": "Employee 44",
+        "job_role": "datasci",
+        "work_hours": 530.0
+    },
+    {
+        "employee_name": "Employee 33",
+        "job_role": "devops",
+        "work_hours": 530.0
+    },
+    {
+        "employee_name": "Employee 30",
+        "job_role": "devops",
+        "work_hours": 530.0
+    },
+    {
+        "employee_name": "Employee 39",
+        "job_role": "datasci",
+        "work_hours": 530.0
+    },
+    {
+        "employee_name": "Employee 20",
+        "job_role": "datasci",
+        "work_hours": 529.0
+    },
+    {
+        "employee_name": "Employee 47",
+        "job_role": "devops",
+        "work_hours": 529.0
+    },
+    {
+        "employee_name": "Employee 27",
+        "job_role": "projmgr",
+        "work_hours": 527.0
+    },
+    {
+        "employee_name": "Employee 9",
+        "job_role": "projmgr",
+        "work_hours": 525.0
+    },
+    {
+        "employee_name": "Employee 13",
+        "job_role": "projmgr",
+        "work_hours": 523.0
+    },
+    {
+        "employee_name": "Employee 15",
+        "job_role": "devops",
+        "work_hours": 522.0
+    },
+    {
+        "employee_name": "Employee 46",
+        "job_role": "frontend",
+        "work_hours": 521.0
+    },
+    {
+        "employee_name": "Employee 29",
+        "job_role": "frontend",
+        "work_hours": 515.0
+    }
+]

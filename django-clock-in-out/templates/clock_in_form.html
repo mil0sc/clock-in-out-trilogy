@@ -1,0 +1,6 @@
+<!-- clock_in_form.html -->
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Clock In</button>
+</form>

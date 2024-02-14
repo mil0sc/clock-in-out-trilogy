@@ -1,0 +1,24 @@
+<!-- time_entries_list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Entries List</title>
+</head>
+<body>
+    <h1>Time Entries List</h1>
+    <table>
+        <tr>
+            <th>Employee Name</th>
+            <th>Clock In</th>
+            <th>Clock Out</th>
+        </tr>
+        {% for entry in time_entries %}
+        <tr>
+            <td>{{ entry.employee.name }}</td>
+            <td>{{ entry.clock_in }}</td>
+            <td>{{ entry.clock_out }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

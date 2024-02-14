@@ -1,0 +1,37 @@
+[
+    {
+        "job_role": "backend",
+        "months_passed": 1,
+        "hours_so_far": 1839.5,
+        "predicted_total_hours": 22074.0,
+        "target_hours": 25000.0
+    },
+    {
+        "job_role": "datasci",
+        "months_passed": 1,
+        "hours_so_far": 1846.0,
+        "predicted_total_hours": 22152.0,
+        "target_hours": 20000.0
+    },
+    {
+        "job_role": "devops",
+        "months_passed": 1,
+        "hours_so_far": 1880.0,
+        "predicted_total_hours": 22560.0,
+        "target_hours": 20000.0
+    },
+    {
+        "job_role": "frontend",
+        "months_passed": 1,
+        "hours_so_far": 2010.0,
+        "predicted_total_hours": 24120.0,
+        "target_hours": 30000.0
+    },
+    {
+        "job_role": "projmgr",
+        "months_passed": 1,
+        "hours_so_far": 1674.5,
+        "predicted_total_hours": 20094.0,
+        "target_hours": 18000.0
+    }
+]

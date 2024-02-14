@@ -1,0 +1,17 @@
+<!-- work_hours_report.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Work Hours Report</title>
+    <!-- You can add CSS links or inline styles here if needed -->
+</head>
+<body>
+    <h1>Work Hours Report</h1>
+    <p>Employee ID: {{ employee_id }}</p>
+    <p>Total Worked Hours: {{ hours|floatformat:2}} hours</p>
+<!-- Add any other details or navigation links here -->
+<a href="{% url 'calculate_hours' %}">Back to calculate hours</a>
+
+</body>
+</html>

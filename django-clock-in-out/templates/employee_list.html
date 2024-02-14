@@ -1,0 +1,22 @@
+<!-- employee_list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee List</title>
+</head>
+<body>
+    <h1>Employee List</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Shift Hours</th>
+        </tr>
+        {% for employee in employees %}
+        <tr>
+            <td>{{ employee.name }}</td>
+            <td>{{ employee.shift_hours }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
