@@ -1,0 +1,4 @@
+2024-02-15 14:28:42,162:ERROR:Clock-in error for employee Filip: Employee Filip not found.
+2024-02-15 14:28:58,943:ERROR:Clock-in error for employee filip: Employee filip not found.
+2024-02-15 15:30:20,208:ERROR:Clock-in error for employee Szymon: Employee Szymon not found.
+2024-02-15 15:30:32,989:INFO:Checked shift (14-22) for hour 15: within shift
