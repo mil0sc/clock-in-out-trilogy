@@ -37,3 +37,7 @@ A detailed guide on how to navigate the application, from logging in to accessin
 Incorporating more sophisticated machine learning algorithms for improved predictive accuracy. 
 - **Real-Time Analytics:** Implementing WebSocket for real-time data updates and notifications. 
 - **Customizable Dashboards:** Allowing users to create and customize their dashboards based on preferences and priorities.
+  
+<img width="1680" alt="Screenshot 2024-02-15 at 12 59 30 PM" src="https://github.com/mil0sc/clock-in-out-trilogy/assets/151748285/c279bbc7-bd8c-49b3-8fe9-55bb1cdd72e7">
+<img width="1680" alt="Screenshot 2024-02-15 at 12 59 55 PM" src="https://github.com/mil0sc/clock-in-out-trilogy/assets/151748285/4293879b-86ce-44a3-80f4-df0609b5df4d">
+
