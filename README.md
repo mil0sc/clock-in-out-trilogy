@@ -39,6 +39,4 @@ Your contributions are welcome across the trilogy! Whether it's feature enhancem
 License
 Each project within the Clock-In-Out Trilogy is released under the MIT License. See the individual LICENSE.md files in each project directory for more details.
 
-<img width="1680" alt="Screenshot 2024-02-15 at 12 59 30 PM" src="https://github.com/mil0sc/clock-in-out-trilogy/assets/151748285/c65bea2c-4e11-4d89-8dcd-930e0e778873">
-<img width="1680" alt="Screenshot 2024-02-15 at 12 59 55 PM" src="https://github.com/mil0sc/clock-in-out-trilogy/assets/151748285/7aa1b037-2ba1-4362-acda-6f8e6b8a0dcd">
 
