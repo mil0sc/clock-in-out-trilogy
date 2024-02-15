@@ -1,4 +1,4 @@
-
+<img width="1680" alt="Screenshot 2024-02-15 at 12 59 30 PM" src="https://github.com/mil0sc/clock-in-out-trilogy/assets/151748285/0450300e-406c-48bf-b6ba-3ecf1173d5aa">
 # Clock-In-Out Trilogy
 Welcome to the **Clock-In-Out** **Trilogy** GitHub Repository! This collection represents a progressive journey through the development of an employee management and time tracking system, evolving from a simple CSV file-based system to an advanced Django-React full-stack application. Each version in the trilogy—CSV, SQL, and Django-React—builds upon the previous, introducing new features, enhancing user experience, and integrating more sophisticated technologies. This project demonstrates a comprehensive understanding of software development principles, from backend processing to frontend user interaction.
 
@@ -39,3 +39,7 @@ Contribution
 Your contributions are welcome across the trilogy! Whether it's feature enhancements, bug fixes, or documentation improvements, please feel free to fork the repository, make your changes, and submit a pull request for review.
 License
 Each project within the Clock-In-Out Trilogy is released under the MIT License. See the individual LICENSE.md files in each project directory for more details.
+
+<img width="1680" alt="Screenshot 2024-02-15 at 12 59 30 PM" src="https://github.com/mil0sc/clock-in-out-trilogy/assets/151748285/c65bea2c-4e11-4d89-8dcd-930e0e778873">
+<img width="1680" alt="Screenshot 2024-02-15 at 12 59 55 PM" src="https://github.com/mil0sc/clock-in-out-trilogy/assets/151748285/7aa1b037-2ba1-4362-acda-6f8e6b8a0dcd">
+
